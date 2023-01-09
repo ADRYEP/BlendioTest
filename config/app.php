@@ -181,8 +181,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        App\Providers\MathServiceProvider::class,
-        App\Providers\OperationsCommandServiceProvider::class,
 
         /*
          * Package Service Providers...

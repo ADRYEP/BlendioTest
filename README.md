@@ -3,7 +3,10 @@
 ## Pasos para ejecutar:
 
 -   clonar el repositorio
+-   Crear un archivo llamado **.env** y copiar el contenido de **.env.copy** en el mismo
 -   Ejecutar **composer install**
+-   Ejecutar **php artisan key:generate**
+-   Ejecutar **php artisan config:cache**
 -   Ejecutar **php artisan serve**
 -   Para ejecutar los tests: **php artisan serve**
 -   Para ejecutar el comando de operaciones: \*\*php artisan operations {número1} {número2} {operación}
