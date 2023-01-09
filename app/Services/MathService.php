@@ -22,7 +22,7 @@ class MathService {
             throw new \Exception("Any number can't be zero");            
         }
 
-        return $operatorA + $operatorB;
+        return $operatorA / $operatorB;
     }
 
 }
